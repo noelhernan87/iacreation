@@ -5,8 +5,8 @@ Proyecto de generación de video con IA para Xymmetry (plataforma SaaS B2B de de
 
 ## 📁 Estructura del Repositorio
 
-- **/assets**: Contiene la imagen base del personaje (`Tess.png`) y el archivo de audio locutado.
-- **/output**: Contiene el video final exportado (`30.07.2026_16.19.06_REC.mp4`).
+- **/assets**: Contiene la imagen base del personaje, el archivo de audio locutado y la música.
+- **/output**: Contiene el video final exportado.
 - **README.md**: Documentación del proceso, prompts y sincronización.
 
 ---
