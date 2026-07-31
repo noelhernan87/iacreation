@@ -1,3 +1,28 @@
-PROMPT GUIÓN: Xymmetry es una plataforma SaaS B2B (Software como Servicio para empresas) especializada en la gestión de derivados financieros (como forwards, swaps y opciones) y en la mitigación de riesgos de tasas de interés y tipos de cambio para tesorerías corporativas.  Su propuesta de valor se basa en tres pilares principales: Soberanía e independencia de datos: Permite a las empresas calcular y valorizar sus carteras en tiempo real (Mark-to-Market – MTM) con precisión matemática, eliminando la dependencia de los reportes bancarios de fin de mes y reduciendo los spreads ocultos en sus negociaciones.  Automatización y eficiencia operativa: Reemplaza el uso de planillas de cálculo (Excel) propensas a errores manuales durante los cierres contables y de tesorería.  Cumplimiento normativo e integración: Facilita el cumplimiento de la contabilidad de coberturas (Hedge Accounting) bajo normativas internacionales como IFRS 9 y se integra de forma nativa mediante APIs con los ERPs (SAP, Oracle, etc.) y sistemas contables de las empresas.  En resumen, Xymmetry actúa como un aliado tecnológico para CFOs, tesoreros y contadores corporativos, dándoles la misma precisión y transparencia de datos que maneja una mesa de dinero bancaria para operar en igualdad de condiciones. En base a esto, crea un guión persuasivo contando qué es Xymmetry dirigido a potenciales clientes. Debes tocar puntos de dolor y ofrecer a Xymmetry como solución. No debes extenderte más de 40 segundos.
-DESCRIPCIÓN DE LA VOZ: Necesito una voz femenina en es español neutro que resulte cálida, clara pero no lenta, y joven.
-PROCESO DE SINCRONIZACIÓN: Se grabó la voz por Eleven Labs y la música con Suno (se pidió una música instrumental, sofisticada, algo tecno y con ritmo suave). Se cargó la imagen del avatar, luego la grabación de la voz y se sincronizó con los labios. Finalmente se añadió la música que no superara el 15% para no tapar la locución.
+Markdown
+# Video Promocional - Xymmetry
+
+Proyecto de generación de video con IA para Xymmetry (plataforma SaaS B2B de derivados financieros).
+
+## 📁 Estructura del Repositorio
+
+- **/assets**: Contiene la imagen base del personaje (`Tess.png`) y el archivo de audio locutado.
+- **/output**: Contiene el video final exportado (`30.07.2026_16.19.06_REC.mp4`).
+- **README.md**: Documentación del proceso, prompts y sincronización.
+
+---
+
+## 📝 Documentación del Proceso
+
+### 1. Guion Persuasivo
+**Texto utilizado para la locución:**
+> "Dejar la valorización de tus derivados en manos del banco es un riesgo operativo. Operar con herramientas del siglo pasado genera asimetría, spreads ocultos y cierres de mes agotadores. Xymmetry automatiza tus forwards, swaps y opciones, integra data local y conecta el Hedge Accounting bajo IFRS con tu ERP. Toma el control. Agenda tu demo en xymmetry.com."
+
+### 2. Configuración de Voz (ElevenLabs)
+- **Idioma:** Español.
+- **Tono/Estilo:** Profesional, directo, seguro y corporativo.
+- **Ritmo:** Pausado con pausas estratégicas adaptadas al límite de caracteres.
+
+### 3. Sincronización y Renderizado (HeyGen)
+- **Avatar / Escenario:** Imagen del personaje (`Tess.png`) montada sobre fondo de oficina corporativa vidriada con logo de Xymmetry.
+- **Sincronización:** Lip-sync aplicado mediante el archivo `.mp3` cargado manualmente desde ElevenLabs.
+- **Música de fondo:** Pista tenue corporativa (volumen reducido al 10%).
